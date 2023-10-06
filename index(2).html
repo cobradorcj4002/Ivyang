@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url("https://media.tenor.com/WBDOBnaOGtkAAAAC/falling-pink-hearts.gif");
+            background-size: cover;
+        }
+        .login-form {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            text-align: center;
+        }
+        .login-input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ff299f;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .success-message {
+            color: green;
+            font-weight: bold;
+        }
+        .hidden-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-form" id="loginFormContainer">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" class="login-input" name="username" placeholder="Username">
+            <input type="password" class="login-input" name="password" placeholder="Password">
+            <button type="button" class="login-button" onclick="checkLogin()">Login</button>
+        </form>
+        <p class="success-message" id="successMessage" style="display: none;">Login successful! Welcome, Username!</p>
+    </div>
+
+    <!-- Hidden content to be displayed after successful login -->
+    <div class="hidden-content" id="afterLoginContent">
+       <!DOCTYPE html>
+<html>
+<head>
+    <title>Romantic Kiss Request</title>
+    <style>
+        body {
+            font-family: 'Cursive', 'Lucida Handwriting', 'Brush Script MT', 'Segoe Script', cursive;
+            text-align: center;
+            position: relative;
+            margin: 0;
+            background-color: #ffcccb; /* Romantic pink background */
+        }
+
+        h1 {
+            color: black; /* Romantic pink text */
+            font-size: 36px;
+            margin-top: 20px;
+            animation: heartbeat 1s infinite; /* Heartbeat animation */
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        button {
+            background-color: #ff69b4; /* Romantic pink button background */
+            color: #fff;
+            border: 2px solid #ff1493; /* Pink border */
+            padding: 12px 24px;
+            margin: 10px;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+            font-size: 18px;
+            border-radius: 20px; /* Rounded corners */
+            transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Smooth transitions */
+        }
+
+        button:hover {
+            background-color: #ff1493; /* Lighter pink on hover */
+            color: #fff; /* White text on hover */
+            transform: scale(1.1); /* Slight scale-up on hover */
+        }
+
+        #message {
+            display: none;
+            margin-top: 20px;
+            max-height: 500px; /* Maximum height for scrolling */
+            overflow-y: auto; /* Enable vertical scrolling */
+            padding: 20px; /* Add padding for better readability */
+            background-color: #fff;
+            border: 2px solid #ff1493; /* Pink border */
+            border-radius: 10px;
+            text-align: left;
+            animation: slideIn 2s forwards; /* Slide-in animation */          
+            font-size: 30px; /* Adjust the font size here */
+    }
+
+    /* ... other styles ... */
+
+        @keyframes slideIn {
+            0% {
+                transform: translateX(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        #kissGif {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+            animation: fadeIn 2s ease-in-out forwards; /* Add a romantic fade-in animation */
+        }
+
+        /* Style to center content in the middle of the page */
+        .center-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+            color: #ff69b4; /* Romantic pink text */
+        }
+You sent
+/* Keyframes for romantic fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>I'm running low on 'kisses,' could you upload some??</h1>
+    <button id="yesButton" onclick="displayMessageAndKissGif()">Yes</button>
+    <button id="noButton" onclick="displayRandomImage()">No</button>
+
+    <div id="message">
+        <p>Dear Ivy,</p>
+    <p>Booting up the connection... I want to convey my gratitude for enabling this data exchange. It's of utmost importance that you can decrypt the true nature of my desire to infiltrate your virtual reality once again.</p>
+    <p>Firstly, I want you to know that I genuinely care about you. My biggest mistake was allowing my pride to get in the way of our relationship. I failed to consider your feelings and needs, and for that, I'm truly sorry. I now understand how my actions and decisions hurt you, and I wish I could turn back time and erase all the pain I've caused. My immaturity and lack of empathy during that time were inexcusable, and I admit to the mistakes I made.</p>
+    <p>During our time apart, I've had the opportunity to reflect on my behavior and how it affected you. I've learned some valuable lessons. I now realize the importance of empathy and open communication in a relationship. It was challenging, but it was necessary for my personal growth. I'll work on becoming more self-aware and emotionally mature, and I'm committed to being a better person for both you and me.</p>
+    <p>To make amends for the mistakes I've made in the past, I assure you that I will prioritize your happiness and well-being. I'm committed to setting things right. I will listen to you attentively, understanding that your perspective is valid and essential. Side by side, we'll dedicate ourselves to fostering a relationship that's loving and synchronized, taking into account each other's needs and feelings.</p>
+    <p>I want you to know that my feelings for you are genuine and deep-rooted. This time apart has only made me realize how much I really miss you and how much you mean to me. I'm more than willing to put in the effort to rebuild our connection and work toward a future together that's marked by trust, love, and mutual respect.</p>
+    <p>In the end, the decision rests with you, and I wholeheartedly respect whichever choice you make. I understand that rebuilding trust takes time, and I'm fully prepared to be patient and consistently demonstrate that I've become a better person. I want to thank you for considering my request, and I sincerely hope that, over time, you'll see the unwavering and genuine love I have for you.</p>
+    <p>Yours faithfully,<br>Chris John</p>
+    </div>
+
+    <img id="kissGif" src="https://media.tenor.com/wZrIa216_-sAAAAC/hearts-heart.gif">
+    <div id="kissOverlay" class="center-content">
+        <!-- You can add any additional content or messages here -->
+    </div>
+
+    <script>
+        function displayMessageAndKissGif() {
+            const messageDiv = document.getElementById("message");
+            messageDiv.style.display = "block";
+
+            const kissGif = document.getElementById("kissGif");
+            const kissOverlay = document.getElementById("kissOverlay");
+
+            kissGif.style.display = "block";
+            kissOverlay.style.display = "block";
+
+            // Set specific width and height for the kiss gif
+            kissGif.style.width = "100%";
+            kissGif.style.height = "15%";
+
+            // Hide the other elements
+            document.getElementById("yesButton").style.display = "none";
+            document.getElementById("noButton").style.display = "none";
+
+            // Remove any existing random images
+            const randomImages = document.querySelectorAll(".random-image");
+            randomImages.forEach((image) => {
+                image.remove();
+            });
+        }
+
+        function displayRandomImage() {
+            const imageUrls = [
+                { url: "https://media.tenor.com/IhQrQBO6rbYAAAAC/agnes-gru-despicable-me.gif", width: "200px", height: "150px" },
+                { url: "https://media.tenor.com/_6CrspFMGuAAAAAC/cute-fingers-fixed-cat.gif", width: "200px", height: "150px" },
+                { url: "https://media.tenor.com/YFrCvyOskn8AAAAd/mario-mario-depressed.gif", width: "200px", height: "150px" },
+                { url: "https://media.tenor.com/DkemGv-7JUEAAAAC/please-yes.gif", width: "200px" , height: "150px" },
+                // Add more image URLs here
+            ];
+
+            const randomImage = imageUrls[Math.floor(Math.random() * imageUrls.length)];
+
+            const image = document.createElement("img");
+            image.src = randomImage.url;
+
+            const windowWidth = window.innerWidth - 200;
+            const windowHeight = window.innerHeight - 200;
+            const newX = Math.random() * windowWidth;
+            const newY = Math.random() * windowHeight;
+
+            image.style.position = "absolute";
+            image.style.width = randomImage.width;
+            image.style.height = randomImage.height;
+            image.style.left = newX + "px";
+            image.style.top = newY + "px";
+            image.className = "random-image"; // Add a class for easy removal
+
+            document.body.appendChild(image);
+        }
+    </script>
+</body>
+</html>
+
+</html>
+
+        
+    </div>
+
+    <script>
+        function checkLogin() {
+            // You can implement your login logic here, for example, by checking the values of the username and password fields
+            // For this example, we'll assume the login is successful if the username is "user" and the password is "password"
+            
+            var username = document.getElementsByName("username")[0].value;
+            var password = document.getElementsByName("password")[0].value;
+            
+            if (username === "" && password === "") {
+                document.getElementById("successMessage").style.display = "block";
+                // Display the hidden content after successful login
+                document.getElementById("afterLoginContent").style.display = "block";
+                // Hide the login form
+                document.getElementById("loginFormContainer").style.display = "none";
+                // Remove the background image
+                document.body.style.background = "pink";
+            }
+        }
+    </script>
+
+</body>
+</html>
